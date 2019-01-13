@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80492b75-6dd9-42bd-83aa-6d79b8bc8917" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/BackTracking&amp;BranchBound/EightQueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic&amp;Greedy/Recursion/EightQueen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,41 +12,100 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DS$KMP.coverage" NAME="KMP Coverage Results" MODIFIED="1547281197404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Str" />
+    <SUITE FILE_PATH="coverage/DS$fourTraverse.coverage" NAME="fourTraverse Coverage Results" MODIFIED="1547383912233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Tree" />
+    <SUITE FILE_PATH="coverage/DS$LongestPalindrome.coverage" NAME="LongestPalindrome Coverage Results" MODIFIED="1547270827729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Str" />
+    <SUITE FILE_PATH="coverage/DS$ValidAnagram.coverage" NAME="ValidAnagram Coverage Results" MODIFIED="1547269683154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Str" />
+    <SUITE FILE_PATH="coverage/DS$IsomoraphicString.coverage" NAME="IsomoraphicString Coverage Results" MODIFIED="1547270118575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Str" />
+    <SUITE FILE_PATH="coverage/DS$IsPalindromic.coverage" NAME="IsPalindromic Coverage Results" MODIFIED="1547270565299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Str" />
+    <SUITE FILE_PATH="coverage/DS$BinaryTree.coverage" NAME="BinaryTree Coverage Results" MODIFIED="1547352959962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Tree" />
+    <SUITE FILE_PATH="coverage/DS$PalindromicSubstrings.coverage" NAME="PalindromicSubstrings Coverage Results" MODIFIED="1547275692243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Str" />
+    <SUITE FILE_PATH="coverage/DS$SubTreeOfAnotherTree.coverage" NAME="SubTreeOfAnotherTree Coverage Results" MODIFIED="1547374099901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Tree" />
     <SUITE FILE_PATH="coverage/DS$EightQueen.coverage" NAME="EightQueen Coverage Results" MODIFIED="1547209538235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BackTracking&amp;BranchBound" />
+    <SUITE FILE_PATH="coverage/DS$DiameterOfBinaryTree.coverage" NAME="DiameterOfBinaryTree Coverage Results" MODIFIED="1547353115567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Tree" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="2050049052">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Python" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="822" />
+          <entry key="py" value="6706" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="822" />
+          <entry key="Python" value="6706" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basic/Str/LongestPalindrome.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basic/Str/IsPalindromic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="547">
+              <caret line="43" column="4" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basic/Str/IsomoraphicString.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basic/Str/PalindromicSubstrings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Basic/Str/ValidAnagram.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,26 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SortMethod/bubble.py" />
-        <option value="$PROJECT_DIR$/SortMethod/SelectSort.py" />
-        <option value="$PROJECT_DIR$/SortMethod/InsertSort.py" />
-        <option value="$PROJECT_DIR$/SortMethod/ShellSort.py" />
-        <option value="$PROJECT_DIR$/SortMethod/mergeSort.py" />
-        <option value="$PROJECT_DIR$/SortMethod/quickSort.py" />
-        <option value="$PROJECT_DIR$/SortMethod/heapSort.py" />
-        <option value="$PROJECT_DIR$/SortMethod/bucketSort.py" />
-        <option value="$PROJECT_DIR$/SearchMethod/sequentialSearch.py" />
-        <option value="$PROJECT_DIR$/SearchMethod/binSearch.py" />
-        <option value="$PROJECT_DIR$/SearchMethod/BSTnodeSearch2.py" />
-        <option value="$PROJECT_DIR$/SearchMethod/BSTnodeSearch.py" />
-        <option value="$PROJECT_DIR$/SortMethod/countingSort.py" />
-        <option value="$PROJECT_DIR$/Basic.py" />
-        <option value="$PROJECT_DIR$/SearchMethod/commonAncestor.py" />
-        <option value="$PROJECT_DIR$/Basic/Array&amp;LinkedList.py" />
-        <option value="$PROJECT_DIR$/Basic/findCircle.py" />
-        <option value="$PROJECT_DIR$/SearchMethod/BinarySearchTree.py" />
-        <option value="$PROJECT_DIR$/Basic/reverseLinkedList.py" />
-        <option value="$PROJECT_DIR$/Basic/LinkedList.py" />
         <option value="$PROJECT_DIR$/Basic/Stack.py" />
         <option value="$PROJECT_DIR$/Basic/Queue&amp;&amp;Stack.py" />
         <option value="$PROJECT_DIR$/Basic/countBackwardsK.py" />
@@ -109,6 +149,28 @@
         <option value="$PROJECT_DIR$/Dynamic&amp;Greedy/Recursion/Cow.py" />
         <option value="$PROJECT_DIR$/Dynamic&amp;Greedy/Recursion/Rabbit.py" />
         <option value="$PROJECT_DIR$/BackTracking&amp;BranchBound/EightQueen.py" />
+        <option value="$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic/LongestIncreasingSubsequence.py" />
+        <option value="$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic/LongestCommonSequences.py" />
+        <option value="$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic/LongestIncreasingCommonSubsequence.py" />
+        <option value="$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic/CoinChange.py" />
+        <option value="$PROJECT_DIR$/Basic/Str/ValidAnagram.py" />
+        <option value="$PROJECT_DIR$/Basic/Str/IsomoraphicString.py" />
+        <option value="$PROJECT_DIR$/Basic/Str/IsPalindromic.py" />
+        <option value="$PROJECT_DIR$/Basic/Str/LongestPalindrome.py" />
+        <option value="$PROJECT_DIR$/Basic/Str/PalindromicSubstrings.py" />
+        <option value="$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic/cominationSum.py" />
+        <option value="$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic/PackageProblem.py" />
+        <option value="$PROJECT_DIR$/Basic/Tree/levelTranversePLUS.py" />
+        <option value="$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/IntersectionOfTwoLinkedLists.py" />
+        <option value="$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/RemoveDuplicatesFromSortedList.py" />
+        <option value="$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/PalindromeLinkedList.py" />
+        <option value="$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/AddTwoNumbers.py" />
+        <option value="$PROJECT_DIR$/Basic/Str/KMP.py" />
+        <option value="$PROJECT_DIR$/Basic/Tree/DiameterOfBinaryTree.py" />
+        <option value="$PROJECT_DIR$/Basic/Tree/SubTreeOfAnotherTree.py" />
+        <option value="$PROJECT_DIR$/Basic/Tree/LowestCommonAncestor.py" />
+        <option value="$PROJECT_DIR$/Basic/Tree/BinaryTree.py" />
+        <option value="$PROJECT_DIR$/Basic/Tree/fourTraverse.py" />
       </list>
     </option>
   </component>
@@ -118,17 +180,19 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="823" />
+    <option name="height" value="821" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,21 +200,11 @@
               <item name="DS" type="b2602c69:ProjectViewProjectNode" />
               <item name="DS" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DS" type="462c0819:PsiDirectoryNode" />
-              <item name="Dynamic&amp;Greedy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DS" type="462c0819:PsiDirectoryNode" />
-              <item name="Dynamic&amp;Greedy" type="462c0819:PsiDirectoryNode" />
-              <item name="Recursion" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -178,8 +232,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.EightQueen">
-    <configuration name="Cow" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.fourTraverse">
+    <configuration name="BinaryTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataStructure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,12 +241,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic/Tree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic&amp;Greedy/Recursion/Cow.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic/Tree/BinaryTree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,7 +255,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="EightQueen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="DiameterOfBinaryTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataStructure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,12 +263,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BackTracking&amp;BranchBound" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic/Tree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic&amp;Greedy/Recursion/EightQueen.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic/Tree/DiameterOfBinaryTree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -223,7 +277,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Rabbit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="KMP" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataStructure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -231,12 +285,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic&amp;Greedy/Recursion" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic/Str" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic&amp;Greedy/Recursion/Rabbit.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic/Str/KMP.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -245,7 +299,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reverseLinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SubTreeOfAnotherTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataStructure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,12 +307,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic/Tree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/reverseLinkedList.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic/Tree/SubTreeOfAnotherTree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -267,7 +321,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="twoSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="fourTraverse" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataStructure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,12 +329,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic/Tree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/twoSum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic/Tree/fourTraverse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -290,19 +344,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Cow" />
-      <item itemvalue="Python.Rabbit" />
-      <item itemvalue="Python.reverseLinkedList" />
-      <item itemvalue="Python.twoSum" />
-      <item itemvalue="Python.EightQueen" />
+      <item itemvalue="Python.KMP" />
+      <item itemvalue="Python.BinaryTree" />
+      <item itemvalue="Python.DiameterOfBinaryTree" />
+      <item itemvalue="Python.SubTreeOfAnotherTree" />
+      <item itemvalue="Python.fourTraverse" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.EightQueen" />
-        <item itemvalue="Python.Cow" />
-        <item itemvalue="Python.Rabbit" />
-        <item itemvalue="Python.twoSum" />
-        <item itemvalue="Python.reverseLinkedList" />
+        <item itemvalue="Python.fourTraverse" />
+        <item itemvalue="Python.SubTreeOfAnotherTree" />
+        <item itemvalue="Python.DiameterOfBinaryTree" />
+        <item itemvalue="Python.BinaryTree" />
+        <item itemvalue="Python.KMP" />
       </list>
     </recent_temporary>
   </component>
@@ -320,15 +374,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="823" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31111112" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21736111" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6303192" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28319624" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39952996" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -352,104 +406,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SortMethod/InsertSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="917">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SortMethod/heapSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SearchMethod/BSTnodeSearch2.py" />
-    <entry file="file://$PROJECT_DIR$/SortMethod/ShellSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SortMethod/SelectSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SortMethod/quickSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" selection-start-line="31" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SortMethod/mergeSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SortMethod/countingSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SortMethod/bubble.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SortMethod/bucketSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic.py" />
-    <entry file="file://$PROJECT_DIR$/Basic/Array&amp;LinkedList.py" />
-    <entry file="file://$PROJECT_DIR$/Basic/Queue&amp;&amp;Stack/Stack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/LinkedList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="154" column="26" lean-forward="true" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SearchMethod/BinarySearchTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackTracking/BackTracking.py" />
-    <entry file="file://$PROJECT_DIR$/BackTracking/BackTracking2.py" />
-    <entry file="file://$PROJECT_DIR$/BackTracking/RestoreIPAddresses.py" />
-    <entry file="file://$PROJECT_DIR$/BackTracking/PhoneNumberCombination.py" />
-    <entry file="file://$PROJECT_DIR$/Basic/Tree/BinaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BackTracking&amp;BranchBound/ZeroOnePackBB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -625,6 +581,173 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic/CoinChange.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic/cominationSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic/LongestCommonSequences.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic/PackageProblem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic/LongestIncreasingSubsequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic/LongestIncreasingCommonSubsequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic/Tree/levelTranversePLUS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/IntersectionOfTwoLinkedLists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/RemoveDuplicatesFromSortedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/PalindromeLinkedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/AddTwoNumbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic/Str/KMP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="90" selection-start-line="1" selection-start-column="90" selection-end-line="1" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic/Tree/LowestCommonAncestor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic/Queue&amp;&amp;Stack/Stack.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic/Tree/fourTraverse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2451">
+          <caret line="129" column="25" lean-forward="true" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
+          <folding>
+            <marker date="1547383912224" expanded="true" signature="75:2949" ph="..." />
+            <marker date="1547383912224" expanded="true" signature="1480:2074" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic/Tree/BinaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic/Tree/SubTreeOfAnotherTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <marker date="1547374094015" expanded="true" signature="515:1093" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic/Tree/DiameterOfBinaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <marker date="1547353115557" expanded="true" signature="350:462" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic/Str/LongestPalindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic/Str/IsPalindromic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="43" column="4" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic/Str/IsomoraphicString.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic/Str/PalindromicSubstrings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic/Str/ValidAnagram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
         </state>
       </provider>
     </entry>
