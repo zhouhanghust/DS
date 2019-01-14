@@ -12,10 +12,13 @@ import numpy as np
 # 0-1 背包
 def oneZeroPack(w,v,c):
     dp = np.zeros((len(w),(c+1)),dtype=np.int32)
+    dp[0] = float("-inf")
+    dp[0, 0] = 0.0
     for i in range(len(w)):
         for j in range(c+1):
             if i == 0:
-                dp[i][j] = v[i] if j >= w[i] else 0
+                if j == w[i]:
+                    dp[i][j] = v[i]
             else:
                 if j >= w[i]:
                     dp[i][j] = max(dp[i-1][j-w[i]]+v[i], dp[i-1][j])
@@ -27,8 +30,12 @@ def oneZeroPack(w,v,c):
 
 # 0-1 背包省空间的办法
 def oneZeroPack2(w,v,c):
-    dp = np.array([0]*(c+1),dtype=np.int32)
-    for i in range(len(w)):
+    dp = np.array([float("-inf")]*(c+1),dtype=np.float32)
+    dp[0] = 0.0
+    for j in range(c+1):
+        if j == w[0]:
+            dp[j] = v[0]
+    for i in range(1,len(w)):
         for j in range(c,-1,-1):
             if j >= w[i]:
                 dp[j] = max(dp[j-w[i]]+v[i], dp[j])
@@ -41,25 +48,33 @@ def oneZeroPack2(w,v,c):
 # 完全背包
 def completePack(w,v,c):
     dp = np.zeros((len(w),(c+1)),dtype=np.int32)
+    dp[0] = float("-inf")
     for i in range(len(w)):
         for j in range(c+1):
+            if i == 0:
+                if j % w[i] == 0:
+                    dp[i][j] = v[i] * (j//w[i])
+                continue
             if j >= w[i]:
                 dp[i][j] = max(dp[i][j-w[i]]+v[i], dp[i-1][j])
             else:
                 dp[i][j] = dp[i-1][j]
 
-    return dp[-1][-1]
+    return dp[-1][-1] if dp[-1][-1] >= 0 else "no solution..."
 
 
 # 完全背包省空间办法
 def completePack2(w,v,c):
-    dp = np.array([0] * (c + 1), dtype=np.int32)
-    for i in range(len(w)):
+    dp = np.array([float("-inf")] * (c + 1), dtype=np.float32)
+    for j in range(c+1):
+        if j % w[0] == 0:
+            dp[j] = v[0] * (j // w[0])
+    for i in range(1, len(w)):
         for j in range(c+1):
             if j >= w[i]:
                 dp[j] = max(dp[j-w[i]]+v[i], dp[j])
 
-    return dp[-1]
+    return dp[-1] if dp[-1] >= 0 else "no solution..."
 
 
 
@@ -79,21 +94,36 @@ def completePack2(w,v,c):
 
 
 def multiplePack(w,v,n,c):
-    dp = np.array([0] * (c + 1), dtype=np.int32)
+    dp = np.array([float("-inf")] * (c + 1), dtype=np.float32)
     for i in range(len(w)):
         if n[i] * w[i] >= c:
             # 转化为完全背包
             ######################
+            if i == 0:
+                for j in range(c + 1):
+                    if j % w[0] == 0:
+                        dp[j] = v[0] * (j // w[0])
+                continue
             for j in range(c+1):
                 if j >= w[i]:
                     dp[j] = max(dp[j - w[i]] + v[i], dp[j])
             ######################
         else:
+            flag = i
             amount = n[i]
             k = 1
             while k < amount:
                 # 转化为0-1背包
                 #########################################
+                if flag == 0:
+                    for j in range(c + 1):
+                        if j == w[0]:
+                            dp[j] = v[0]
+                    dp[0] = 0.0
+                    flag = 100
+                    amount -= k
+                    k = k*2
+                    continue
                 for j in range(c, -1, -1):
                         if j >= w[i]*k:
                             dp[j] = max(dp[j - w[i]*k] + v[i]*k, dp[j])
@@ -104,22 +134,39 @@ def multiplePack(w,v,n,c):
 
             # 转化为0-1背包
             #########################################
+            if flag == 0:
+                for j in range(c + 1):
+                    if j == w[0]:
+                        dp[j] = v[0]
+                dp[0] = 0.0
+                continue
             for j in range(c, -1, -1):
                     if j >= w[i] * amount:
                         dp[j] = max(dp[j - w[i] * amount] + v[i] * amount, dp[j])
             #########################################
-    return dp[-1]
+    return dp[-1] if dp[-1] >= 0 else "no solution..."
 
 
 # 写的好看一点
 def multilePack2(w,v,n,c):
 
     def ZOP(weight,value,capacity,i,dp):
+        if i == 0:
+            dp[0] = 0.0
+            for j in range(c + 1):
+                if j == weight:
+                    dp[j] = value
+            return
         for j in range(capacity,-1,-1):
             if j >= weight:
                 dp[j] = max(dp[j-weight]+value, dp[j])
 
     def CP(weight,value,capacity,i,dp):
+        if i == 0:
+            for j in range(c + 1):
+                if j % weight == 0:
+                    dp[j] = value * (j // weight)
+            return
         for j in range(capacity+1):
             if j >= weight:
                 dp[j] = max(dp[j-weight]+value, dp[j])
@@ -130,18 +177,19 @@ def multilePack2(w,v,n,c):
             CP(weight,value,capacity,i,dp)
             return
         k = 1
+        flag = i
         while k<amount:
-            ZOP(weight*k,value*k,capacity,i,dp)
+            ZOP(weight*k,value*k,capacity,flag,dp)
+            flag = 100
             amount -= k
             k = k*2
-        ZOP(amount*weight,amount*value,capacity,i,dp)
+        ZOP(amount*weight,amount*value,capacity,flag,dp)
 
-
-    dp = np.array([0] * (c + 1), dtype=np.int32)
+    dp = np.array([float("-inf")] * (c + 1), dtype=np.float32)
     for i in range(len(w)):
         MP(w[i],v[i],c,i,dp)
 
-    return dp[-1]
+    return dp[-1] if dp[-1] >= 0 else "no solution..."
 
 
 if __name__ == "__main__":
@@ -152,6 +200,10 @@ if __name__ == "__main__":
     print(oneZeroPack2(w,v,c))
 
     print("------------------------------")
+
+    c = 11
+    w = [2, 2, 6, 6, 4]
+    v = [6, 3, 5, 4, 6]
     print(completePack(w,v,c))
     print(completePack2(w,v,c))
 
