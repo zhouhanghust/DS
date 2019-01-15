@@ -1,4 +1,10 @@
 # 最长公共子序列
+
+# "mannbnciow"
+# "xxawebqcp"
+# 最长公共子序列为: "abc"
+
+
 # 对于两个子序列 S1 和 S2，找出它们最长的公共子序列。
 #
 # 定义一个二维数组 dp 用来存储最长公共子序列的长度，
@@ -14,7 +20,27 @@
 # dp[i][j] = dp[i-1][j-1] if S1i == S2j
 #            max(dp[i-1][j],dp[i][j-1])  if  S1i != S2j
 
+import numpy as np
 
+
+def lengthOfLCS(str1, str2):
+    n1 = len(str1)
+    n2 = len(str2)
+    dp = np.zeros((n1+1,n2+1),dtype=np.int32)
+    # i 表示最远考虑到str1的下标第i-1号字符，j表示最远考虑到str2的下标第j-1号字符
+    for i in range(1,n1+1):
+        for j in range(1,n2+1):
+            if str1[i-1] == str2[j-1]:
+                dp[i][j] = dp[i-1][j-1] + 1
+            else:
+                dp[i][j] = max(dp[i-1][j], dp[i][j-1])
+    return dp[n1][n2]
+
+
+if __name__ == "__main__":
+    str1 = "mannbnciow"
+    str2 = "xxawebqcp"
+    print(lengthOfLCS(str1, str2))
 
 
 
