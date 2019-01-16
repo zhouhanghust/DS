@@ -30,6 +30,14 @@ def twoSum(lst,target):
     return result
 
 
+def twoSum2(lst, target):
+    indexForNum = dict()
+    for i in range(len(lst)):
+        if (target - lst[i]) in indexForNum:
+            return [indexForNum.get(target-lst[i]), i]
+        else:
+            indexForNum[lst[i]] = i
+
 
 # 延伸three sum
 
@@ -84,8 +92,9 @@ def threeSumClosest(lst,target):
 
 if __name__ == "__main__":
     numbers = [2, 7, 11, 15]
-    target = 9
+    target = 18
     print(twoSum(numbers,target))
+    print(twoSum2(numbers, target))
 
     numbers = [1,2,3,4,5,6,7,8]
     target = 9
