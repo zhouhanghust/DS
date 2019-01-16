@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="80492b75-6dd9-42bd-83aa-6d79b8bc8917" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/twoSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/twoSum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,25 +11,68 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/DS$KMP.coverage" NAME="KMP Coverage Results" MODIFIED="1547281197404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Str" />
     <SUITE FILE_PATH="coverage/DS$fourTraverse.coverage" NAME="fourTraverse Coverage Results" MODIFIED="1547383912233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Tree" />
-    <SUITE FILE_PATH="coverage/DS$LongestPalindrome.coverage" NAME="LongestPalindrome Coverage Results" MODIFIED="1547270827729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Str" />
-    <SUITE FILE_PATH="coverage/DS$ValidAnagram.coverage" NAME="ValidAnagram Coverage Results" MODIFIED="1547269683154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Str" />
     <SUITE FILE_PATH="coverage/DS$IsomoraphicString.coverage" NAME="IsomoraphicString Coverage Results" MODIFIED="1547270118575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Str" />
     <SUITE FILE_PATH="coverage/DS$IsPalindromic.coverage" NAME="IsPalindromic Coverage Results" MODIFIED="1547270565299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Str" />
     <SUITE FILE_PATH="coverage/DS$BinaryTree.coverage" NAME="BinaryTree Coverage Results" MODIFIED="1547352959962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Tree" />
     <SUITE FILE_PATH="coverage/DS$PalindromicSubstrings.coverage" NAME="PalindromicSubstrings Coverage Results" MODIFIED="1547275692243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Str" />
-    <SUITE FILE_PATH="coverage/DS$SubTreeOfAnotherTree.coverage" NAME="SubTreeOfAnotherTree Coverage Results" MODIFIED="1547374099901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Tree" />
     <SUITE FILE_PATH="coverage/DS$EightQueen.coverage" NAME="EightQueen Coverage Results" MODIFIED="1547209538235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BackTracking&amp;BranchBound" />
     <SUITE FILE_PATH="coverage/DS$DiameterOfBinaryTree.coverage" NAME="DiameterOfBinaryTree Coverage Results" MODIFIED="1547353115567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Tree" />
+    <SUITE FILE_PATH="coverage/DS$HASH.coverage" NAME="HASH Coverage Results" MODIFIED="1547644180259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList" />
+    <SUITE FILE_PATH="coverage/DS$KMP.coverage" NAME="KMP Coverage Results" MODIFIED="1547281197404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Str" />
+    <SUITE FILE_PATH="coverage/DS$LongestPalindrome.coverage" NAME="LongestPalindrome Coverage Results" MODIFIED="1547270827729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Str" />
+    <SUITE FILE_PATH="coverage/DS$ValidAnagram.coverage" NAME="ValidAnagram Coverage Results" MODIFIED="1547269683154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Str" />
+    <SUITE FILE_PATH="coverage/DS$SubTreeOfAnotherTree.coverage" NAME="SubTreeOfAnotherTree Coverage Results" MODIFIED="1547374099901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Tree" />
+    <SUITE FILE_PATH="coverage/DS$HASHSET.coverage" NAME="HASHSET Coverage Results" MODIFIED="1547644352815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2050049052">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="325" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="325" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/twoSum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
+            <state relative-caret-position="619">
               <caret line="103" column="17" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/HASHSET.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -50,8 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Dynamic&amp;Greedy/minPath.py" />
-        <option value="$PROJECT_DIR$/Dynamic&amp;Greedy/maxAreaOfIsland.py" />
         <option value="$PROJECT_DIR$/Dynamic&amp;Greedy/NumberOfIslands.py" />
         <option value="$PROJECT_DIR$/Dynamic&amp;Greedy/FriendCircles.py" />
         <option value="$PROJECT_DIR$/BackTracking.py" />
@@ -101,6 +141,8 @@
         <option value="$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic/LongestIncreasingSubsequence.py" />
         <option value="$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic/LongestIncreasingCommonSubsequence.py" />
         <option value="$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/twoSum.py" />
+        <option value="$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/HASH.py" />
+        <option value="$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/HASHSET.py" />
       </list>
     </option>
   </component>
@@ -111,7 +153,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="710" />
+    <option name="x" value="1440" />
     <option name="y" value="62" />
     <option name="width" value="1920" />
     <option name="height" value="977" />
@@ -124,34 +166,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="DS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="DS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DS" type="462c0819:PsiDirectoryNode" />
               <item name="Basic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="DS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DS" type="462c0819:PsiDirectoryNode" />
               <item name="Basic" type="462c0819:PsiDirectoryNode" />
               <item name="Array&amp;&amp;LinkedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="SortMethod" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,15 +196,16 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Dynamic&amp;Greedy/Recursion" />
       <recent name="$PROJECT_DIR$/Dynamic&amp;Greedy" />
       <recent name="$PROJECT_DIR$/Dynamic&amp;Greedy/Graph" />
       <recent name="$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList" />
       <recent name="$PROJECT_DIR$/Basic/Queue&amp;&amp;Stack" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList" />
+      <recent name="$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -182,8 +220,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.twoSum">
-    <configuration name="CoinChange" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.HASHSET">
+    <configuration name="HASH" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataStructure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -191,11 +229,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic/CoinChange.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/HASH.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HASHSET" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataStructure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/HASHSET.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,6 +277,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic/LongestCommonSequences.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -237,28 +299,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic/LongestIncreasingSubsequence.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="cominationSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataStructure" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic&amp;Greedy/Dynamic/cominationSum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,6 +321,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/twoSum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -289,19 +332,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.cominationSum" />
-      <item itemvalue="Python.CoinChange" />
       <item itemvalue="Python.LongestCommonSequences" />
       <item itemvalue="Python.LongestIncreasingSubsequence" />
       <item itemvalue="Python.twoSum" />
+      <item itemvalue="Python.HASH" />
+      <item itemvalue="Python.HASHSET" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.HASHSET" />
+        <item itemvalue="Python.HASH" />
         <item itemvalue="Python.twoSum" />
         <item itemvalue="Python.LongestCommonSequences" />
         <item itemvalue="Python.LongestIncreasingSubsequence" />
-        <item itemvalue="Python.cominationSum" />
-        <item itemvalue="Python.CoinChange" />
       </list>
     </recent_temporary>
   </component>
@@ -319,15 +362,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="710" y="62" width="1920" height="977" extended-state="0" />
+    <frame x="1440" y="62" width="1920" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21695629" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21666667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22372882" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22295806" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39952996" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -348,21 +391,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/countBackwardsK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic&amp;Greedy/Graph/FriendCircles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dynamic&amp;Greedy/Graph/Graph.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -420,7 +452,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Basic/Tree/levelTranversePLUS.py" />
-    <entry file="file://$PROJECT_DIR$/Basic/Str/KMP.py">
+    <entry file="file://$PROJECT_DIR$/Basic/Str/kmp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="90" selection-start-line="1" selection-start-column="90" selection-end-line="1" selection-end-column="90" />
@@ -442,9 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <marker date="1547374094015" expanded="true" signature="515:1093" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -452,9 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <marker date="1547353115557" expanded="true" signature="350:462" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -669,10 +695,24 @@
     <entry file="file://$PROJECT_DIR$/SortMethod/bucketSort.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/HASH.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/twoSum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
+        <state relative-caret-position="619">
           <caret line="103" column="17" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic/Array&amp;&amp;LinkedList/HASHSET.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
         </state>
       </provider>
     </entry>
