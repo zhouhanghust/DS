@@ -26,7 +26,7 @@ class Calculator(object):
         exprelst = []
         temp = ''
         for i,each in enumerate(expression):
-            if each.isdigit():
+            if each.isdigit() or each == '.':
                 temp += each
                 if i == len(expression)-1:
                     exprelst.append(temp)
@@ -109,7 +109,10 @@ class Calculator(object):
                 # 计算结果入栈
                 calcalate_stack.append(result)
 
-        return calcalate_stack[0]
+        ret = calcalate_stack[0]
+        if int(ret) == ret:
+            ret = int(ret)
+        return ret
 
     def operate(self, number1, number2, operator):
         """
@@ -119,8 +122,8 @@ class Calculator(object):
         :param operator: 操作符
         :return:
         """
-        number1 = int(number1)
-        number2 = int(number2)
+        number1 = float(number1)
+        number2 = float(number2)
 
         if operator == '+':
             return number2 + number1
@@ -134,7 +137,7 @@ class Calculator(object):
 
 if __name__ == '__main__':
     c = Calculator()
-    expression = '20 + (3 - 1)*3 + 8 / 2'
+    expression = '2.1 + (3 - 1)*3 + 8 / 4'
     expression_result = c.calcaulate(expression)
     print(expression_result)
 
