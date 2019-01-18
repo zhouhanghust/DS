@@ -8,7 +8,7 @@ def shellSort(lst,delta):
 def shellInsert(lst,deltaK):
     # 获取序列长度
     length = len(lst)
-    # 累死插入排序，只不过这次的跳跃间隔为deltaK
+    # 类似插入排序，只不过这次的跳跃间隔为deltaK
     for i in range(deltaK,length,1):
         if lst[i-deltaK] > lst[i]:
             current = lst[i]
