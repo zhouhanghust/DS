@@ -16,7 +16,7 @@
 # Explanation: You don't need to
 # remove any of the intervals since they're already non-overlapping.
 
-# 题目描述：计算让一组区间不重叠所需要移除的区间个数。
+# 题目描述：计算让一组区间不重叠所需要移除的最少区间个数。
 #
 # 先计算最多能组成的不重叠区间个数，然后用区间总个数减去不重叠区间的个数。
 #
